@@ -1,0 +1,16 @@
+dataset_dir: "./datasets"
+
+# training options
+batch_size: 128
+start_epoch: 0
+epochs: 1000  
+workers: 8
+
+# model options
+resnet: "resnet18"
+projection_dim: 64 
+
+# loss options
+optimizer: "LARS" 
+weight_decay: 1.0e-6 
+temperature: 0.5
