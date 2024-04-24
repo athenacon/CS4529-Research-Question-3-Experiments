@@ -1,0 +1,7 @@
+dataset_dir: "./datasets"
+batch_size: 128 
+epochs: 1000  
+resnet: "resnet18"
+# linear evaluation options
+logistic_batch_size: 256
+logistic_epochs: 100
